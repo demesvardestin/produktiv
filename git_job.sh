@@ -1,5 +1,4 @@
 #!/bin/sh
-chmod +x ./job_scheduler.rb
 
 git_job() {
   case "$1" in
