@@ -12,8 +12,7 @@ git_job() {
     "schedule")
     
     shift
-    SEND_IN=`expr $4 * 3600`
-    sleep $SEND_IN
+    sleep $4
     
     git rebase $3
     if [ "$1" == "no-sha" ]; then
